@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div>
+  <ul>
+
+    <label (click)="displayWeatherDetail(weathers)">{{weathers.name}}</label>
+
+  </ul>
+</div>
+
+<app-weather-detail [selectedWeather]="selectedWeather"></app-weather-detail>
+
+<app-create-weather></app-create-weather>

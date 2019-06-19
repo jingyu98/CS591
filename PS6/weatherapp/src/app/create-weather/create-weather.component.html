@@ -1,0 +1,8 @@
+<div>
+
+  <label>Name of city: </label> <input type="text" [(ngModel)]="myWeather.name" required>
+  <label>Weather description: </label> <input type="text" [(ngModel)] = "myWeather.weather.description" required>
+  <label>Humidity: </label> <input type="text" [(ngModel)]="myWeather.main.humidity" required>
+  <button (click)="addWeather()">Add</button>
+
+</div>
