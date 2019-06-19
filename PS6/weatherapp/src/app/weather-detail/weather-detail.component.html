@@ -1,0 +1,10 @@
+<div *ngIf="selectedWeather">
+  <h3>Details for {{selectedWeather.name}} </h3>
+  <li>
+    weather : {{ selectedWeather.weather.description }}
+  </li>
+  <li>
+    humidity: {{ selectedWeather.main.humidity }}
+  </li>
+
+</div>
